@@ -5,7 +5,15 @@ public class Table {
 	public static void main(String[] args) {
 		JFrame frame =  new JFrame("Table Prac.");
 		JPanel panel = new JPanel();
+		String[] headings = new String[]{"Id", "Name", "Country"};
+		Object[][] data = new Object[][] {
+			{"1","Daniel","Korea"},
+			{"2","Sunny","France"},
+			{"3","John","Japan"};
+		};
 		
+		
+		frame.add(panel);
 		
 		frame.setVisible(true); // 보여지도록설정
 		frame.setSize(800, 640); //크기 설정
